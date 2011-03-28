@@ -1,0 +1,17 @@
+{
+    "name": "Link Action Helper",
+    "version": "0.1",
+    "description": "Adds hover info to anchor tags making it easier to choose where to open the link.",
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+        ],
+    "content_scripts": [
+            {
+              "matches": ["http://*/*", "https://*/*"],
+              "css": ["linkHelperStyles.css"],
+              "js": ["addHover.js"],
+              "all_frames": true
+            }
+        ]
+}

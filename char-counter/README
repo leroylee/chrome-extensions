@@ -1,0 +1,6 @@
+Basic Google Chrome Extension
+
+This extension counts the characters entered into any 
+ - input of type 'text'
+ - textarea 
+It displays the count in an injected div#charCounterbox appearing in the top right corner of the page.
