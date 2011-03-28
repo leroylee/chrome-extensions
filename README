@@ -1,0 +1,10 @@
+Basic Google Chrome Extensions
+
+*char-counter*
+This extension counts the characters entered into any 
+ - input of type 'text'
+ - textarea 
+It displays the count in an injected div#charCounterbox appearing in the top right corner of the page.
+
+*link-helper*
+Adds hover events to the anchor tags on a page providing single click access to opening links in the same window or in new tab.
